@@ -43,3 +43,10 @@ export const departments = [
     link: "remote"
   },
 ]
+
+export const footerList = {
+  title: "Company links",
+  items: [
+    'About', 'Contact', 'Billing', 'Links', 'Customer'
+  ]
+}

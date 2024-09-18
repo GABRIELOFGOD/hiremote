@@ -1,5 +1,8 @@
+import ContactFromHome from "@/components/home/ContactFromHome";
 import Departments from "@/components/home/Departments";
 import WhoWeAre from "@/components/home/WhoWeAre";
+import Testimony from "@/components/home/Testimony";
+import Consult from "@/components/home/Consult";
 
 const Home = () => {
   return (
@@ -16,6 +19,9 @@ const Home = () => {
       </div>
       <Departments />
       <WhoWeAre />
+      <Testimony />
+      <ContactFromHome />
+      <Consult />
     </div>
   )
 }

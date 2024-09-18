@@ -14,6 +14,9 @@ module.exports = {
         brand: "#EAB308",
         iconColor: "#0D5C63"
       },
+      fontSize: {
+        subtopic: "40px",
+      }
     },
   },
   plugins: [],

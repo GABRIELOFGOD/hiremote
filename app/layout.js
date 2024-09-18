@@ -1,5 +1,6 @@
 import PreNav from "@/components/PreNav";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Hiremote Africa",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       >
         <PreNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
