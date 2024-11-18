@@ -1,4 +1,5 @@
 import PreNav from "@/components/PreNav";
+import NavBar from "@/components/NavBar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         className={`antialiased`}
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NavBar />
         <PreNav />
         {children}
         <Footer />

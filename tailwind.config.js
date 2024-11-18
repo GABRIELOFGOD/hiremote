@@ -12,7 +12,8 @@ module.exports = {
         secondary: "#FF7B47",
         light: "#737373",
         brand: "#EAB308",
-        iconColor: "#0D5C63"
+        iconColor: "#0D5C63",
+        cream: "#fffdd0"
       },
       fontSize: {
         subtopic: "40px",
