@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,11 +10,24 @@
   }
 }
 
-body{
+body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 }
 
-.home{
+.home {
   background: url("/images/home.jpg");
+}
+
+.about {
+  /* background: linear-gradient(to right, rgba(238, 8, 8, 0), rgba(0, 0, 0, 0.5)),
+    url("/images/aboutbg3.png"); */
+  background-size: 600px auto;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  /* background: linear-gradient(to bottom, #252323, #0b0b0b); */
+  height: fit-content;
 }
