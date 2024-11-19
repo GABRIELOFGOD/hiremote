@@ -4,7 +4,8 @@ import Link from 'next/link';
 import React from 'react'
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import FooterList from './FooterList';
-import { footerList } from '@/utils/data';
+import { departments, footerList } from '@/utils/data';
+import { navlist } from './NavBar';
 
 const Footer = () => {
   return (
@@ -19,10 +20,10 @@ const Footer = () => {
       </div>
       <hr className='my-10 bg-neutral-500' />
       <div className='flex flex-col md:flex-row justify-between gap-10'>
-        <FooterList title={footerList.title} items={footerList.items} />
-        <FooterList title={footerList.title} items={footerList.items} />
-        <FooterList title={footerList.title} items={footerList.items} />
-        <FooterList title={footerList.title} items={footerList.items} />
+        <FooterList title={"Quick links"} items={navlist} />
+        <FooterList title={"Departments"} items={departments} />
+        {/* <FooterList title={footerList.title} items={footerList.items} /> */}
+        {/* <FooterList title={footerList.title} items={footerList.items} /> */}
         <div className='flex flex-col gap-5'>
           <p className='font-bold text-[16px] text-white'>Get in Touch</p>
           <form onSubmit={e=>e.preventDefault()} className='rounded-md border flex border-neutral-200 overflow-hidden '>

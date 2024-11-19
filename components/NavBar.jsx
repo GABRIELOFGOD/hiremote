@@ -1,27 +1,28 @@
-import React from "react";
+
 import About from "@/app/about/page";
 import Home from "@/app/page";
 import Link from "next/link";
 
+export const navlist = [
+  {
+    title: "Home",
+    link: "/",
+  },
+  {
+    title: "About Hiremote",
+    link: "/about",
+  },
+  {
+    title: "Partner With Us",
+    link: "/partner",
+  },
+  {
+    title: "Academic Sessions",
+    link: "/academic-sessions",
+  },
+];
+
 const NavBar = () => {
-  const navlist = [
-    {
-      label: "Home",
-      path: "/",
-    },
-    {
-      label: "About Hiremote",
-      path: "/about",
-    },
-    {
-      label: "Partner With Us",
-      path: "/partner",
-    },
-    {
-      label: "Academic Sessions",
-      path: "/academic-sessions",
-    },
-  ];
 
   //   return (
   //     <div className="flex bg-primary relative backdrop-filter backdrop-blur-sm px-[1rem]">
@@ -34,10 +35,10 @@ const NavBar = () => {
   //         {navlist.map((item, index) => (
   //           <Link
   //             key={index}
-  //             href={item.path}
+  //             href={item.link}
   //             className="my-auto h-full px-6 hover:text-blue-600 duration-200 hover:bg-white"
   //           >
-  //             {item.label}
+  //             {item.title}
   //           </Link>
   //         ))}
   //       </div>
@@ -46,24 +47,24 @@ const NavBar = () => {
   // };
 
   return (
-    <div className="bg-primary flex justify-between items-center p-4">
+    <div className="bg-primary flex justify-between items-center px-4">
       <p className="text-white font-semibold text-[12px] md:text-[20px] border-r-[3px] border-white pr-4">
         Our Portal
       </p>
 
       {/* Navigation Menu using <details> */}
-      <details className="group relative z-50">
-        <summary className="cursor-pointer text-white font-semibold text-[12px] md:text-[20px]  bg-gray-800 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+      <details  className="group relative z-50">
+        <summary className="cursor-pointer text-white font-semibold text-[12px] md:text-base duration-200 outline-none px-4 py-2 rounded-md focus:outline-none">
           Site Navigation
         </summary>
         <div className="absolute right-0 mt-2 bg-gray-100 rounded-md shadow-lg p-4 space-y-2 w-52 z-50">
           {navlist.map((item, index) => (
             <Link
               key={index}
-              href={item.path}
+              href={item.link}
               className="block text-gray-800 font-semibold hover:text-blue-600 hover:bg-gray-200 px-4 py-2 rounded duration-200"
             >
-              {item.label}
+              {item.title}
             </Link>
           ))}
         </div>

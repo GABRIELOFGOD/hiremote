@@ -3,7 +3,7 @@
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link";
-import React from "react";
+
 
 const PreNav = () => {
   return (
