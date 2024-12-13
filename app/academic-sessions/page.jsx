@@ -1,4 +1,4 @@
-import React from "react";
+
 import AcademicSessions from "@/components/academic/Academic";
 
 const AcademicSessionsPage = () => {

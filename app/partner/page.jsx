@@ -1,4 +1,4 @@
-import React from "react";
+
 import Partnerships from "@/components/partners/Partnerships";
 
 const Partner = () => {

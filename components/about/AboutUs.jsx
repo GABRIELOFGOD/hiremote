@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div>
-      <div className="about md:mb-10 w-full relative md:bg-[url('/images/remote-worker5.jpg')]">
+      <div className="about md:mb-10 w-full relative md:bg-[url('/images/remote-worker6.jpg')]">
         <div className="content flex flex-col gap-[0.7rem] px-[1rem] py-[3rem] md:px-[8rem] md:py-[10rem] relative z-10 bg-gradient-to-r from-primary md:from-primary to-transparent bg-opacity-100 text-white">
           <h3 className="text-[0.9rem] font-semibold">ABOUT US</h3>
           <h1 className="text-[1.3rem] md:text-[2.5rem] font-bold">

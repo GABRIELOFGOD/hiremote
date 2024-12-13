@@ -1,4 +1,4 @@
-import React from "react";
+
 import RemoteWorker from "./RemoteWorker";
 
 const WhyUs = () => {
