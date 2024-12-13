@@ -21,6 +21,10 @@ const NavBar = () => {
       label: "Academic Sessions",
       path: "/academic-sessions",
     },
+    {
+      label: "Club Membership",
+      path: "/srw-club"
+    }
   ];
 
   //   return (

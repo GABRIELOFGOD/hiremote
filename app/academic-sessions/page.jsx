@@ -1,7 +1,7 @@
 import React from "react";
 import AcademicSessions from "@/components/academic/Academic";
 
-const page = () => {
+const AcademicSessionsPage = () => {
   return (
     <div>
       <AcademicSessions />
@@ -9,4 +9,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AcademicSessionsPage;
