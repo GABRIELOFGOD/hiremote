@@ -3,7 +3,8 @@
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import Link from "next/link";
-
+import Image from "next/image";
+const Logo = "/images/hiremote-logo.png";
 
 const PreNav = () => {
   return (
@@ -12,11 +13,7 @@ const PreNav = () => {
         Our Portal
       </p> */}
       <div className="flex-shrink-0 md:left-6">
-        <img
-          className="w-[3rem] h-auto md:w-[5rem] object-contain"
-          src="/images/hiremote-logo.png"
-          alt=""
-        />
+        <Image src={Logo} alt="Hiremote Logo" width={100} height={50} />
       </div>
       <div className="w-full flex-[4] md:flex justify-center mx-auto py-3 bg-primary bg-opacity-80">
         <p className="text-center text-xs md:text-sm text-secondary">

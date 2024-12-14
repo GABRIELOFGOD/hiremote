@@ -20,11 +20,13 @@ export const navlist = [
     title: "Academic Sessions",
     link: "/academic-sessions",
   },
-    {
-      label: "Club Membership",
-      path: "/srw-club"
-    },
+  {
+    label: "Club Membership",
+    link: "/srw-club"
+  },
 ];
+
+const NavBar = () => {
 
   //   return (
   //     <div className="flex bg-primary relative backdrop-filter backdrop-blur-sm px-[1rem]">

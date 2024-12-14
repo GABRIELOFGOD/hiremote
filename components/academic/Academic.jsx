@@ -1,4 +1,6 @@
+import Image from "next/image";
 
+const FisrtImg = "/calendar.jpg";
 
 const AcademicSessions = () => {
   const sessions = [
@@ -39,11 +41,7 @@ const AcademicSessions = () => {
 
       {/* Image Section */}
       <div className="flex justify-center mb-10">
-        <img
-          src="/calendar.jpg" // Change this to your image path
-          alt="Academic Sessions Calendar"
-          className="w-full md:w-2/3 h-64 object-cover rounded-lg shadow-lg"
-        />
+        <Image src={FisrtImg} alt="Calendar" width={800} height={500} />
       </div>
 
       {/* Academic Sessions */}

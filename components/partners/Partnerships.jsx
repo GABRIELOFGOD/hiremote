@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 const Partnerships = () => {
@@ -6,7 +7,7 @@ const Partnerships = () => {
       <div className="flex flex-col gap-[2rem] md:flex md:flex-row md:justify-between px-[1rem] py-[2rem] mx-auto md:px-[8rem] md:py-[5rem] bg-neutral-200">
         <div className="flex-1 flex h-full justify-center flex-col gap-[1rem]">
           <h1 className="font-bold md:text-5xl text-3xl text-primary">
-            Become Hiremote Partner
+            Become Hiremote Africa Partner
           </h1>
           <p className="font-medium">
             Hiremote Africa is proud to partner with governments and
@@ -20,10 +21,11 @@ const Partnerships = () => {
           </button>
         </div>
         <div className="">
-          <img
+          <Image
             className="flex-[2] rounded-[1rem] md:w-full"
             src="/images/partner1.jpg"
             alt=""
+            width={50} height={50}
           />
         </div>
       </div>
@@ -67,10 +69,11 @@ const Partnerships = () => {
               </ul>
             </div>
             <div class="flex justify-center">
-              <img
+              <Image
                 src="/images/leader2.jpg"
                 alt="Youth training for remote jobs"
                 class="rounded-lg shadow-lg w-full h-auto object-cover"
+                width={50} height={50}
               />
             </div>
           </div>
@@ -107,10 +110,11 @@ const Partnerships = () => {
               </ul>
             </div>
             <div class="flex flex-1 justify-center">
-              <img
+              <Image
                 src="/images/leader1.jpg"
                 alt="Business leaders discussing training strategies"
                 class="rounded-lg shadow-lg w-full h-auto object-cover"
+                width={50} height={50}
               />
             </div>
           </div>
