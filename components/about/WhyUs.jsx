@@ -1,12 +1,11 @@
-
 import RemoteWorker from "./RemoteWorker";
 
 const WhyUs = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-primary mb-10">
+    <div className="flex flex-col md:flex-row bg-primary">
       <div className="flex flex-col gap-[1rem] flex-[3] px-[1rem] py-[2rem] md:px-[8rem] md:py-[6rem]">
         <div className="">
-          <h1 className="border-b border-dashed border-secondary text-white w-fit text-[1rem] md:text-[1.5rem]">
+          <h1 className="border-b border-dashed border-blue-600 text-white w-fit text-[1rem] md:text-[1.5rem]">
             WHY CHOOSE US?
           </h1>
         </div>

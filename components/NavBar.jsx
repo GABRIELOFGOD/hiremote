@@ -1,4 +1,3 @@
-
 import About from "@/app/about/page";
 import Home from "@/app/page";
 import Link from "next/link";
@@ -21,13 +20,20 @@ export const navlist = [
     link: "/academic-sessions",
   },
   {
-    label: "Club Membership",
-    link: "/srw-club"
+    title: "Club Membership",
+    link: "/srw-club",
+  },
+  {
+    title: "FAQ",
+    link: "/faq",
+  },
+  {
+    title: "Contact Us",
+    link: "/contact",
   },
 ];
 
 const NavBar = () => {
-
   //   return (
   //     <div className="flex bg-primary relative backdrop-filter backdrop-blur-sm px-[1rem]">
   //       <div className=" px-3.5 text-center md:flex-1 border-r-[3px] border-white text-white font-semibold text-sm">
@@ -57,7 +63,7 @@ const NavBar = () => {
       </p>
 
       {/* Navigation Menu using <details> */}
-      <details  className="group relative z-50">
+      <details className="group relative z-50">
         <summary className="cursor-pointer text-white font-semibold text-[12px] md:text-base duration-200 outline-none px-4 py-2 rounded-md focus:outline-none">
           Site Navigation
         </summary>

@@ -9,8 +9,18 @@ import {
   FaBriefcase,
   FaHandshake,
   FaToolbox,
+  FaUserShield,
+  FaLaptop,
+  FaMoneyBillWave,
+  FaCertificate,
+  FaBuilding,
+  FaAward,
+  FaRegClock,
+  FaGlobeAmericas,
+  FaCalendarAlt,
 } from "react-icons/fa";
 import { FiCheckSquare, FiBarChart2 } from "react-icons/fi";
+import { CiCircleQuestion } from "react-icons/ci";
 
 export const departments = [
   {
@@ -130,5 +140,81 @@ export const clubBenefits = [
     description:
       "  Stay updated on the latest technological and industry trends, ensuring that you remain relevant in your chosen field.",
     icon: <FiBarChart2 />,
+  },
+];
+
+export const FAQCardData = [
+  {
+    icon: <FaUserShield />,
+    question: "Who can enroll in the programs?",
+    answer:
+      "Anyone looking to enhance their skills in remote work can enroll. Our program takes you from beginner to advanced-level across multiple fields which makes it cater to all levels.",
+  },
+  {
+    icon: <FaLaptop />,
+    question: "How are classes delivered?",
+    answer:
+      "All our classes are conducted online. You can attend live sessions on weekends combined with access to recorded lessons at your convenience.",
+  },
+  {
+    icon: <FaMoneyBillWave />,
+    question: "What is the cost of each program?",
+    answer: "Our school fee is currently",
+    fee: "N31500/$39.",
+    access: "This gives you access to enroll into any program of your choice",
+  },
+  {
+    icon: <FaCertificate />,
+    question: " What happens after I complete a course?",
+    answer:
+      "Upon completing the course, you’ll receive a globally recognized certification, access to internship and job placement resources. We also have an active alumni community network.",
+  },
+  {
+    icon: <FaBuilding />,
+    question: "  Can organizations enroll their employees? ",
+    answer:
+      "Yes, we offer custom training programs for organizations looking to upskill their workforce.",
+  },
+  {
+    icon: <FaAward />,
+    question: "  Will I receive a certification? ",
+    answer:
+      "Yes, upon successful completion, you will receive a globally recognized certification.",
+  },
+  {
+    icon: <CiCircleQuestion />,
+    question: " Do You Guarantee Job? ",
+    answer:
+      "We don't promise jobs. However, we often have paid internships for our brightest stars! You'd be taught the procedures & strategies to be followed consistently  to be able to land an offer like the ones we share on our social media pages. It is important they are followed to get desired results within the shortest possible time.",
+  },
+  {
+    icon: <FaRegClock />,
+    question: "  Will 8 weeks Be Enough For Me To Become a Professional?",
+    answer:
+      "Yes, we basically save you from unnecessary theoretical aspects and take you through practical job market needs to fortify you with the technical know-how needed to succeed.",
+  },
+  {
+    icon: <FaToolbox />,
+    question: "I'm already skilled, is this the right program for me?",
+    answer:
+      "If you are skilled and you currently don't have any global tool knowledge, work portfolio, neither do you have an ATS standard resume or optimized Linkedin Profile, you'd definitely need to upskill with us. If you are still struggling with all of the above, our Remote Job Preparation and Placement programme is your sure bet.",
+  },
+  {
+    icon: <FaGlobeAmericas />,
+    question: "Can I join the program from anywhere in the world?",
+    answer:
+      "Yes, all our courses are 100% online, making them accessible from anywhere across the globe.",
+  },
+  {
+    icon: <FaCalendarAlt />,
+    question: "What is the duration of each program?",
+    answer:
+      "All of our programs last 8 weeks with flexible options for learning.",
+  },
+  {
+    icon: <FaHandshake />,
+    question: "How do organizational partnerships work?",
+    answer:
+      "We offer customizable upskilling programs for organizations looking to enhance employee productivity. Organizations can enroll their teams in our programs and benefit from cost-effective training solutions",
   },
 ];
