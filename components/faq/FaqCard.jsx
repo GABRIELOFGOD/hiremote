@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const FaqCard = ({ icon, question, answer, fee, access }) => {
   return (

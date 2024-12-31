@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import DeptCard from './DeptCard'
 import { departments } from '@/utils/data'
 

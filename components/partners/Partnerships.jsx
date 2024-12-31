@@ -33,7 +33,7 @@ const Partnerships = () => {
         <div className="text-center mb-[3rem]">
           <h1 className="font-semibold text-2xl">The Partner Program</h1>
           <p>
-            Join us in transforming ideas into impactful solutions. Let's grow
+            Join us in transforming ideas into impactful solutions. Let&apos;s grow
             together as partners.
           </p>
         </div>

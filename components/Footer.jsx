@@ -1,10 +1,10 @@
 "use client"
 
 import Link from 'next/link';
-import React from 'react'
+// import React from 'react'
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import FooterList from './FooterList';
-import { departments, footerList } from '@/utils/data';
+import { departments } from '@/utils/data';
 import { navlist } from './NavBar';
 
 const Footer = () => {

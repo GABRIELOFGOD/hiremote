@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import BenefitsCard from "./BenefitsCard";
 import { clubBenefits } from "@/utils/data";
 
@@ -9,8 +9,9 @@ function Benefits() {
         Benefits Of Club Membership
       </h1>
       <div className="benefits-listings grid grid-cols sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {clubBenefits.map((benefit) => (
+        {clubBenefits.map((benefit, i) => (
           <BenefitsCard
+            key={i}
             title={benefit.title}
             description={benefit.description}
             icon={benefit.icon}

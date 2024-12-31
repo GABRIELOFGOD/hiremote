@@ -29,7 +29,7 @@ const AcademicSessions = () => {
         Academic Sessions
       </h1>
       <p className="text-gray-600 mb-8 text-center">
-        At Hiremote Africa's School of Remote Work, we run flexible academic
+        At Hiremote Africa&apos;s School of Remote Work, we run flexible academic
         sessions throughout the year to ensure that students can find the best
         time to enroll. Each program lasts 8 weeks, with live classes held on{" "}
         <span className="font-semibold">

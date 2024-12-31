@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import FaqCard from "./FaqCard";
 import { FAQCardData } from "@/utils/data";
 
@@ -10,8 +10,9 @@ function Faq() {
         <p className="leading-7">Quick answers to questions you may have.</p>
       </div>
       <div className="grid grid-cols sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3  gap-[2rem]">
-        {FAQCardData.map((faq) => (
+        {FAQCardData.map((faq, i) => (
           <FaqCard
+            key={i}
             icon={faq.icon}
             question={faq.question}
             answer={faq.answer}

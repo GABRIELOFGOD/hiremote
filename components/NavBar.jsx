@@ -1,5 +1,5 @@
-import About from "@/app/about/page";
-import Home from "@/app/page";
+// import About from "@/app/about/page";
+// import Home from "@/app/page";
 import Link from "next/link";
 
 export const navlist = [

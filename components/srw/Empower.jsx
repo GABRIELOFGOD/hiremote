@@ -1,4 +1,8 @@
-import React from "react";
+// import React from "react";
+
+import Image from "next/image";
+
+const imageHere = "/images/membership-1.webp";
 
 function Empower() {
   return (
@@ -28,10 +32,9 @@ function Empower() {
           </p>
         </div>
         <div className="flex justify-center items-center flex-1">
-          <img
-            className="w-full h-auto object-cover rounded-[5%]"
-            src="/images/membership-1.webp"
+          <Image
             alt=""
+            src={imageHere}
           />
         </div>
       </div>

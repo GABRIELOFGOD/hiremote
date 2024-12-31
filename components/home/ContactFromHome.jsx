@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+// import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
@@ -29,9 +29,9 @@ const ContactFromHome = () => {
           <hr className="border-1 border-secondary" />
           <div className="leading-7">
             Our dedicated team at Hiremote Africa is available to assist you
-            with any inquiries, whether you're a prospective student, an
+            with any inquiries, whether you&apos;re a prospective student, an
             organization looking for partnership opportunities, or a government
-            body interested in our youth empowerment programs. Don't hesitate to
+            body interested in our youth empowerment programs. Don&apos;t hesitate to
             reach out for more information!
           </div>
           <hr className="border-1 border-secondary" />
